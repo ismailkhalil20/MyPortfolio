@@ -15,9 +15,9 @@ export default function Header() {
     }
     return (
         <div>
-            <div className="h-24 mx-10 lg:max-w-4xl lg:m-auto xl:max-w-5xl flex items-center justify-between">
+            <div className="h-24 mx-10 lg:max-w-6xl lg:m-auto flex items-center justify-between">
                 <img src={Logo} alt="logo" className="w-52" />
-                <div className="hidden sm:flex text-white gap-7">
+                <div className="hidden sm:flex text-white text-lg gap-7">
                     <a href="#">Projects</a>
                     <a href="#">About</a>
                     <a href="#">Contact</a>
