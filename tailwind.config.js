@@ -17,7 +17,8 @@ module.exports = {
           '700': '#102b41', 
           '800': '#0d2234', 
           '900': '#0a1c2a'
-        }
+        },
+        orange: colors.amber
       }
     },
   },
