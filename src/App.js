@@ -1,5 +1,7 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
+import HeroProject1, { HeroProject2, HeroProject3 } from './components/HeroProject'
+
 
 function App() {
   return (
@@ -7,6 +9,9 @@ function App() {
       <Header />
       <div className="lg:max-w-6xl text-white mx-10 lg:mx-auto">
         <Hero />
+        <HeroProject1 />
+        <HeroProject2 />
+        <HeroProject3 />
       </div>
     </div>
   );

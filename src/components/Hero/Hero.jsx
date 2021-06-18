@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="max-w-sm lg:max-w-lg my-10">
                 <h1 className="text-4xl text-orange-400 font-mono">Hey, I am Ismail, a Frontend Developer</h1>
                 <p className="my-5 text-lg">I am a developer, I am passionate about building software and learning new technologies, I am best at forntend now but learning about the backend.</p>
-                <button type="button" className="w-32 h-12 text-lg bg-orange-400 hover:opacity-90">Contact</button>
+                <button type="button" className="w-32 h-12 text-lg bg-yellow-500 hover:bg-yellow-400">Contact</button>
             </div>
         </div>
     )
