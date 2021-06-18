@@ -3,7 +3,7 @@ import Photo from '../../assets/IsmailKhalil.jpg'
 
 export default function Hero() {
     return (
-        <div className="flex flex-wrap justify-around items-center gap-2 my-24">
+        <div className="flex flex-wrap justify-around items-center gap-2 my-32">
             <div className="w-10/12 sm:w-8/12 md:w-4/12">
                 <img src={Photo} alt="Ismail Khalil" className="shadow-lg rounded max-w-full h-auto align-middle border-none" />
             </div>

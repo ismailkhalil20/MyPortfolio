@@ -9,6 +9,7 @@ function App() {
       <Header />
       <div className="lg:max-w-6xl text-white mx-10 lg:mx-auto">
         <Hero />
+        <h2 className="text-4xl text-yellow-400" id="projects">Projects</h2>
         <HeroProject1 />
         <HeroProject2 />
         <HeroProject3 />
