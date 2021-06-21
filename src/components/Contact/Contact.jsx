@@ -37,7 +37,7 @@ export default function Contact() {
                         </div>
 
                         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                            <p className="leading-normal my-5 text-white">You can find me on.
+                            <p className="leading-normal my-5 text-lg text-yellow-400">You can find me on.
                             </p>
                             <span className="inline-flex space-x-4">
                                 <a href="https://twitter.com/IsmailKhalil_" className="w-6 h-6">

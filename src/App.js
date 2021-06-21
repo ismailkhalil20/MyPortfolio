@@ -1,5 +1,6 @@
 import About from './components/About'
-import Contact from './components/Contact/Contact'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import HeroProject1, { HeroProject2, HeroProject3 } from './components/HeroProject'
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }
