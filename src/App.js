@@ -1,4 +1,5 @@
 import About from './components/About'
+import Contact from './components/Contact/Contact'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import HeroProject1, { HeroProject2, HeroProject3 } from './components/HeroProject'
@@ -15,6 +16,7 @@ function App() {
         <HeroProject2 />
         <HeroProject3 />
         <About />
+        <Contact />
       </div>
     </div>
   );
