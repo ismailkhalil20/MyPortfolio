@@ -1,3 +1,4 @@
+import About from './components/About'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import HeroProject1, { HeroProject2, HeroProject3 } from './components/HeroProject'
@@ -5,7 +6,7 @@ import HeroProject1, { HeroProject2, HeroProject3 } from './components/HeroProje
 
 function App() {
   return (
-    <div className="bg-nile-blue-800">
+    <div className="bg-nile-blue-600">
       <Header />
       <div className="lg:max-w-6xl text-white mx-10 lg:mx-auto">
         <Hero />
@@ -13,6 +14,7 @@ function App() {
         <HeroProject1 />
         <HeroProject2 />
         <HeroProject3 />
+        <About />
       </div>
     </div>
   );
