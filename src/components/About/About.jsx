@@ -8,7 +8,7 @@ import CSSLogo from '../../assets/CSS3.svg'
 
 export default function About() {
     return (
-        <section className="text-gray-600 body-font">
+        <section id="about" className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="w-full mb-20">
                     <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-yellow-400 mb-12">About</h1>
